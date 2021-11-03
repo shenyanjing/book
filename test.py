@@ -27,10 +27,10 @@ for u in url:
       # print(a)
 
 print(book_list)
-# a = "['dasef ','casd','casd','cdsa','cdsav','vas','vfsav']"
-# b = a[1:-1].split(',')
-# # print(b)
-# # print(type(b))
-# for i in range(0,len(b)):
-#    b[i] = b[i][1:-1]
+a = "['dasef ','casd','casd','cdsa','cdsav','vas','vfsav']"
+b = a[1:-1].split(',')
 # print(b)
+# print(type(b))
+for i in range(0,len(b)):
+   b[i] = b[i][1:-1]
+print(b)
